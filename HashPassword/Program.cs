@@ -10,7 +10,7 @@ namespace HashPassword
     {
         static void Main(string[] args)
         {
-            string ConnectionString = @"Data Source=DESKTOP-1ULGF16;Initial Catalog=db_SavannaERP;User ID=sa;Password=sa@123; Pooling=true;Max Pool Size=32700;";
+            string ConnectionString = @"Data Source=.;Initial Catalog=db_Savan;User ID=sa;Password=000; Pooling=true;Max Pool Size=32700;";
             using (SqlConnection connection = new SqlConnection(ConnectionString))
             {
                 connection.Open();
