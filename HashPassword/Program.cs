@@ -73,7 +73,6 @@ namespace HashPassword
 
         public static string HashPasswordSalt(string password)
         {
-            // http://stackoverflow.com/questions/19957176/asp-net-identity-password-hashing
 
             byte[] salt;
             byte[] buffer2;
